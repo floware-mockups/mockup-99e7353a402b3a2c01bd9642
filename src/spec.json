@@ -1,0 +1,187 @@
+{
+  "title": "Calendario attività settimanali",
+  "description": "Prototipo navigabile per pianificare, consultare e aggiornare attività settimanali con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Riepilogo della settimana e accesso rapido alle attività in programma.",
+      "metrics": [
+        {
+          "label": "Attività questa settimana",
+          "value": "18"
+        },
+        {
+          "label": "In programma",
+          "value": "11"
+        },
+        {
+          "label": "Completate",
+          "value": "5"
+        },
+        {
+          "label": "Da pianificare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Giorno",
+        "Orario",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Pianificazione Lumo",
+          "Lunedì",
+          "09:00",
+          "In programma"
+        ],
+        [
+          "Revisione Vela",
+          "Martedì",
+          "11:30",
+          "Completata"
+        ],
+        [
+          "Laboratorio Nubi",
+          "Mercoledì",
+          "14:00",
+          "In programma"
+        ],
+        [
+          "Riepilogo Lumo",
+          "Venerdì",
+          "16:00",
+          "Da pianificare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "calendario",
+      "title": "Calendario",
+      "description": "Vista settimanale filtrabile delle attività, con giorno, fascia oraria e stato.",
+      "metrics": [],
+      "columns": [
+        "Attività",
+        "Giorno",
+        "Orario",
+        "Categoria",
+        "Responsabile",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Pianificazione Lumo",
+          "Lunedì",
+          "09:00",
+          "Organizzazione",
+          "Squadra Lumo",
+          "In programma"
+        ],
+        [
+          "Revisione Vela",
+          "Lunedì",
+          "11:30",
+          "Verifica",
+          "Squadra Vela",
+          "Completata"
+        ],
+        [
+          "Laboratorio Nubi",
+          "Martedì",
+          "10:00",
+          "Laboratorio",
+          "Squadra Nubi",
+          "In programma"
+        ],
+        [
+          "Aggiornamento Lumo",
+          "Martedì",
+          "15:00",
+          "Organizzazione",
+          "Squadra Lumo",
+          "In programma"
+        ],
+        [
+          "Confronto Vela",
+          "Mercoledì",
+          "09:30",
+          "Riunione",
+          "Squadra Vela",
+          "Da pianificare"
+        ],
+        [
+          "Sessione Nubi",
+          "Mercoledì",
+          "14:00",
+          "Laboratorio",
+          "Squadra Nubi",
+          "In programma"
+        ],
+        [
+          "Verifica Lumo",
+          "Giovedì",
+          "10:30",
+          "Verifica",
+          "Squadra Lumo",
+          "Completata"
+        ],
+        [
+          "Pianificazione Vela",
+          "Giovedì",
+          "13:00",
+          "Organizzazione",
+          "Squadra Vela",
+          "In programma"
+        ],
+        [
+          "Riepilogo Nubi",
+          "Venerdì",
+          "11:00",
+          "Riunione",
+          "Squadra Nubi",
+          "In programma"
+        ],
+        [
+          "Chiusura Lumo",
+          "Venerdì",
+          "16:00",
+          "Verifica",
+          "Squadra Lumo",
+          "Da pianificare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-attivita",
+      "title": "Nuova attività",
+      "description": "Inserisci un'attività settimanale specificando quando si svolge, chi la segue e il relativo stato.",
+      "metrics": [],
+      "columns": [
+        "Attività",
+        "Giorno",
+        "Orario",
+        "Categoria",
+        "Responsabile",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Attività",
+        "Giorno",
+        "Orario",
+        "Categoria",
+        "Responsabile",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
